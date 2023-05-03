@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Website Design</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+
+
+
+
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="photos/flc_design20230426142867.jpg"></a>
+
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times-circle-o" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="About.html">ABOUT</a></li>
+          <li><a href="courses.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+  </section>
+
+
+
+
+
+  <!-------AboutUs-------->
+
+  <section class="about-us">
+    <div class="row">
+      <div class="class-col">
+        <h1>We Are the world's largest university</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, expedita excepturi natus ratione eveniet
+          vitae temporibus? Molest<br>
+          <br>Dolore, omnis. Sequi, quis blanditiis. Doloribus placeat optio adipisci consequatur pariatur repellendus
+          ex aperiam sequi, ducimus eve.
+          <br> Aliquid beatae, quod aspernatur esse suscipit ducimus dolores facilis nulla obcaecati, officia molestias
+          ab provident ut illum, quidem.
+          Aspernatur aperiam possimus, laudantium neque optio amet. Consequuntur quia laboriosam velit quidem,
+          aspernatur ad dolorum, molestiaen.<br>
+          Aliquid quod facilis dignissimos ipsa ad itaque maiores commodi quae? Laborum quisquam consectetu
+        </p>
+        <a href="" class="btn1 red">EXPLORE NOW</a>
+      </div>
+      <div class="about-col">
+        <img src="photos/campaign-creators-gMsnXqILjp4-unsplash.jpg">
+      </div>
+    </div>
+    <section class="footer">
+      <h3>About Us</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus inventore, odit mollitia aliquid ab magnam
+        pariatur excepturi recusandae id dolor, <br>repellendus corrupti sint dolorem? Porro voluptate consequuntur illo
+        perferendis non!</p>
+      <div class="icons">
+        <em class="fa fa-facebook"></em>
+        <em class="fa fa-instagram"></em>
+        <em class="fa fa-linkedin"></em>
+      </div>
+      <p>Made With <em class="fa fa-heart-o"></em>By Narottam Tomar</p>
+    </section>
+  
+  
+  </section>
+
+
+
+
+
+  
+
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0"
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px"
+    }
+  </script>
+</body>
+
+</html>
